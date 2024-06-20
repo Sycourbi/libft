@@ -10,7 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
+/*
+** Supprime et libère la mémoire allouée de tous les éléments d'une liste.
+** Enfin, le pointeur de tête doit être mis à NULL.
+**
+** \param lst Pointeur vers le pointeur du premier élément de la liste.
+** \param del La fonction pour supprimer le contenu de chaque élément.
+** \return Aucun retour.
+*/
 void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
 	t_list	*be;
