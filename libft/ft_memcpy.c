@@ -10,7 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
+/*
+** Copie `n` octets de la zone mémoire `src` vers la zone mémoire `dest`.
+**
+** \param dest Pointeur vers la zone de destination.
+** \param src Pointeur vers la zone source.
+** \param n Nombre d'octets à copier.
+** \return Pointeur vers `dest`.
+*/
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
 	size_t	i;
