@@ -10,7 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
+/*
+** Supprime et libère la mémoire allouée d'un élément de liste.
+**
+** \param lst L'élément à supprimer.
+** \param del La fonction pour supprimer le contenu de l'élément.
+** \return Aucun retour.
+*/
 void	ft_lstdelone(t_list *lst, void (*del)(void *))
 {
 	if (!lst || !del)
