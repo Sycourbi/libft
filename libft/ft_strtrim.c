@@ -11,7 +11,15 @@
 /* ************************************************************************** */
 #include "libft.h"
 #include <stdio.h>
-
+/*
+** Alloue et retourne une copie de la chaîne `s1`, sans les caractères
+** présents dans la chaîne `set` au début et à la fin de `s1`.
+**
+** \param s1 La chaîne de caractères à trimmer.
+** \param set La chaîne de caractères contenant les caractères à enlever.
+** \return Une nouvelle chaîne de caractères, sans les caractères spécifiés au début et à la fin,
+**         ou NULL en cas d'erreur d'allocation mémoire.
+*/
 char	*ft_strtrim(char const *s1, char const *set)
 {
 	char	*cop;
