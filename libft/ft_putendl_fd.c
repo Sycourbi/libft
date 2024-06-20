@@ -10,7 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
+/*
+** Affiche la chaîne de caractères `s` suivie d'un retour à la ligne sur le descripteur de fichier `fd`.
+**
+** \param s La chaîne de caractères à afficher.
+** \param fd Le descripteur de fichier sur lequel afficher.
+** \return Aucun retour.
+*/
 void	ft_putendl_fd(char *s, int fd)
 {
 	if (!s)
