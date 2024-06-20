@@ -10,7 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
+/*
+** Recherche le dernier caractère `c` dans la chaîne `s`.
+**
+** \param s La chaîne dans laquelle chercher.
+** \param c Le caractère à rechercher.
+** \return Un pointeur vers la dernière occurrence du caractère `c` dans `s`,
+**         ou NULL si le caractère `c` n'est pas trouvé.
+*/
 char	*ft_strrchr(const char *s, int c)
 {
 	int	i;
