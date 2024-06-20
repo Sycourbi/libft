@@ -10,7 +10,17 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
+/*
+** Alloue et retourne une nouvelle chaîne de caractères qui est une sous-chaîne de `s`.
+** La sous-chaîne commence à l'index `start` et a une longueur maximale `len`.
+** La nouvelle chaîne est toujours nul-terminée.
+**
+** \param s La chaîne de caractères d'origine.
+** \param start L'index de départ pour la sous-chaîne dans `s`.
+** \param len La longueur maximale de la sous-chaîne à extraire.
+** \return Une nouvelle chaîne de caractères qui est une sous-chaîne de `s`,
+**         ou NULL en cas d'échec d'allocation mémoire.
+*/
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
 	char	*dest;
