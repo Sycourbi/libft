@@ -10,7 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
+/*
+** Itère sur chaque élément de la liste et applique la fonction `f`.
+** Crée une nouvelle liste résultante avec les éléments modifiés.
+**
+** \param lst Pointeur vers le premier élément de la liste.
+** \param f La fonction à appliquer sur chaque élément.
+** \param del La fonction pour supprimer le contenu de chaque élément de la liste résultante en cas d'erreur.
+** \return La nouvelle liste résultante, ou NULL en cas d'erreur.
+*/
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
 	t_list	*elem;
