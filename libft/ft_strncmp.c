@@ -10,7 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
+/*
+** Compare les `n` premiers caractères de deux chaînes de caractères `s1` et `s2`.
+**
+** \param s1 Première chaîne de caractères à comparer.
+** \param s2 Deuxième chaîne de caractères à comparer.
+** \param n Nombre maximal de caractères à comparer.
+** \return Un entier inférieur, égal ou supérieur à zéro selon que `s1` est respectivement
+**         plus petite, égale ou plus grande que `s2`.
+*/
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
 	size_t	i;
