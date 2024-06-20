@@ -9,6 +9,7 @@
 /*   Updated: 2022/11/12 09:49:36 by sycourbi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include "libft.h"
 /*
 ** Convertit une chaîne de caractères en entier.
 **
