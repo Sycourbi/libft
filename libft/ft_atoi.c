@@ -9,7 +9,12 @@
 /*   Updated: 2022/11/12 09:49:36 by sycourbi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
+/*
+** Convertit une chaîne de caractères en entier.
+**
+** \param str La chaîne de caractères à convertir.
+** \return La valeur entière convertie.
+*/
 int	ft_atoi(const char *nptr)
 {
 	int	i;
