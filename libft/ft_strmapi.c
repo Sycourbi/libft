@@ -10,7 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
+/*
+** Applique la fonction `f` à chaque caractère de la chaîne `s`,
+** en lui passant son index en premier argument, pour créer une nouvelle chaîne de caractères.
+**
+** \param s La chaîne de caractères à parcourir.
+** \param f La fonction à appliquer à chaque caractère avec son index.
+** \return Une nouvelle chaîne de caractères résultant de l'application de `f` sur chaque caractère de `s`,
+**         ou NULL en cas d'erreur.
+*/
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	char	*res;
