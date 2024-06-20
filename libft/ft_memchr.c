@@ -10,7 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
+/*
+** Recherche la première occurrence de l'octet `c` dans les `n` premiers octets
+** de la zone mémoire pointée par `s`.
+**
+** \param s Pointeur vers la zone mémoire à inspecter.
+** \param c Octet à rechercher.
+** \param n Nombre d'octets à inspecter.
+** \return Un pointeur vers l'octet correspondant dans `s`, ou NULL si `c` n'est pas trouvé.
+*/
 void	*ft_memchr(const void *s, int c, size_t n)
 {
 	size_t	i;
