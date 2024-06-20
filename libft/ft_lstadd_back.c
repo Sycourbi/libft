@@ -10,7 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
+/*
+** Ajoute un nouvel élément à la fin de la liste.
+**
+** \param lst Pointeur vers le pointeur du premier élément de la liste.
+** \param new L'élément à ajouter en fin de liste.
+** \return Aucun retour.
+*/
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
 	t_list	*a;
