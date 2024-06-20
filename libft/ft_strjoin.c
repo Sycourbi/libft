@@ -10,7 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
+/*
+** Alloue et retourne une nouvelle chaîne de caractères résultant de la concaténation
+** de `s1` et `s2`.
+**
+** \param s1 Première chaîne de caractères.
+** \param s2 Deuxième chaîne de caractères.
+** \return La nouvelle chaîne de caractères résultant de la concaténation, ou NULL en cas d'échec.
+*/
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	char	*new_str;
