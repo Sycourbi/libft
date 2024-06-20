@@ -10,7 +10,16 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
+/*
+** Cherche la première occurrence de la sous-chaîne `little` dans la chaîne `big`,
+** jusqu'à une longueur maximale `len`.
+**
+** \param big La chaîne dans laquelle chercher.
+** \param little La sous-chaîne à chercher.
+** \param len Le nombre maximal de caractères à comparer.
+** \return Un pointeur vers la première occurrence de `little` dans `big`,
+**         ou NULL si `little` n'est pas trouvée dans les `len` premiers caractères de `big`.
+*/
 char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
 	size_t	i;
