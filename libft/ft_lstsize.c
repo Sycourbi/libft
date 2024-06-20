@@ -10,7 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
+/*
+** Compte le nombre d'éléments dans une liste.
+**
+** \param lst Pointeur vers le premier élément de la liste.
+** \return Le nombre d'éléments dans la liste.
+*/
 int	ft_lstsize(t_list *lst)
 {
 	int	size;
