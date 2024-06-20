@@ -10,7 +10,16 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
+/*
+** Concatène la chaîne `src` à la fin de la chaîne `dst` jusqu'à une taille maximale `size`.
+** La chaîne résultante dans `dst` est toujours nul-terminée.
+**
+** \param dst Chaîne de destination où concaténer.
+** \param src Chaîne source à concaténer.
+** \param size Taille maximale de la chaîne de destination incluant le nul-terminateur.
+** \return La longueur totale de la chaîne qui aurait été créée si `dst` avait suffisamment d'espace,
+**         plus la longueur de `src`. Le résultat est tronqué et nul-terminé.
+*/
 size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {
 	size_t	len;
