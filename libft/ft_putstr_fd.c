@@ -10,7 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
+/*
+** Affiche la chaîne de caractères `s` sur le descripteur de fichier `fd`.
+**
+** \param s La chaîne de caractères à afficher.
+** \param fd Le descripteur de fichier sur lequel afficher.
+** \return Aucun retour.
+*/
 void	ft_putstr_fd(char *s, int fd)
 {
 	if (!s)
