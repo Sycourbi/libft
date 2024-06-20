@@ -9,7 +9,13 @@
 /*   Updated: 2022/11/07 13:40:23 by sycourbi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
+#include "libft.h"
+/*
+** Vérifie si le caractère donné est alphabétique.
+**
+** \param c Le caractère à tester.
+** \return 1 si c'est un caractère alphabétique, 0 sinon.
+*/
 int	ft_isalpha(int c)
 {
 	if (c >= 'A' && c <= 'Z')
