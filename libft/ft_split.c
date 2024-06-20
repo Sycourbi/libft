@@ -10,7 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
+/*
+** Alloue et retourne un tableau de chaînes de caractères obtenues en séparant
+** la chaîne `s` à l'aide du caractère `c` comme délimiteur.
+**
+** \param s La chaîne de caractères à découper.
+** \param c Le caractère délimiteur.
+** \return Un tableau de pointeurs vers les nouvelles chaînes de caractères, ou NULL en cas d'erreur.
+*/
 static int	ft_check_word(char const *s, char c)
 {
 	int	i;
