@@ -10,7 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
+/*
+** Affiche l'entier `n` sur le descripteur de fichier `fd`.
+**
+** \param n L'entier à afficher.
+** \param fd Le descripteur de fichier sur lequel afficher.
+** \return Aucun retour.
+*/
 void	ft_putnbr_fd(int n, int fd)
 {
 	if (n < 0 && n != -2147483648)
