@@ -10,7 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
+/*
+** Convertit un entier en une chaîne de caractères.
+**
+** \param nb L'entier à convertir.
+** \return La chaîne de caractères représentant l'entier, ou NULL en cas d'erreur.
+*/
 static int	ft_nbrlen(long int nb)
 {
 	long int	i;
