@@ -10,7 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
+/*
+** Alloue la mémoire pour un tableau de `nmemb` éléments de taille `size` octets,
+** et initialise tous les octets à zéro.
+**
+** \param nmemb Nombre d'éléments à allouer.
+** \param size Taille en octets de chaque élément.
+** \return Un pointeur vers la mémoire allouée, ou NULL en cas d'échec.
+*/
 void	*ft_calloc(size_t nmemb, size_t size)
 {
 	char	*dest;
