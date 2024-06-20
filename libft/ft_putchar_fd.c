@@ -10,7 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
+/*
+** Affiche le caractère `c` sur le descripteur de fichier `fd`.
+**
+** \param c Le caractère à afficher.
+** \param fd Le descripteur de fichier sur lequel afficher.
+** \return Aucun retour.
+*/
 void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
