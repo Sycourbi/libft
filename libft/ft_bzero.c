@@ -10,7 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
+/*
+** Met à zéro les `n` premiers octets de la zone mémoire pointée par `s`.
+**
+** \param s Pointeur vers la zone mémoire à affecter.
+** \param n Nombre d'octets à mettre à zéro.
+** \return Aucun retour.
+*/
 void	ft_bzero(void *s, size_t n)
 {
 	size_t	i;
