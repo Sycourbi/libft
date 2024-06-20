@@ -10,7 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
+/*
+** Copie la chaîne `src` dans `dst` jusqu'à une taille maximale `size - 1`.
+** La chaîne résultante dans `dst` est toujours nul-terminée.
+**
+** \param dst Chaîne de destination où copier.
+** \param src Chaîne source à copier.
+** \param size Taille maximale de la chaîne de destination incluant le nul-terminateur.
+** \return La longueur de la chaîne source `src`.
+*/
 size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {
 	size_t	len;
