@@ -10,7 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
+/*
+** Duplique une chaîne de caractères en allouant de la mémoire dynamiquement pour la copie.
+**
+** \param s La chaîne de caractères à dupliquer.
+** \return Un pointeur vers la nouvelle chaîne de caractères, ou NULL en cas d'échec.
+*/
 char	*ft_strdup(const char *s)
 {
 	char	*dest;
