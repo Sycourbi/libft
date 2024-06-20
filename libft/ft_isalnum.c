@@ -9,7 +9,13 @@
 /*   Updated: 2022/11/07 13:39:05 by sycourbi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
+#include "libft.h"
+/*
+** Vérifie si le caractère donné est un caractère alphanumérique.
+**
+** \param c Le caractère à tester.
+** \return 1 si c'est un caractère alphanumérique, 0 sinon.
+*/
 int	ft_isalnum(int c)
 {
 	if (c >= '0' && c <= '9')
