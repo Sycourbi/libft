@@ -6,9 +6,9 @@ Bienvenue sur le dépôt du projet Libft de l'École 42. Ce projet consiste à r
 
 ## Badge et Note Obtenu
 
-[![42 Grade](https://img.shields.io/badge/42-%E2%9C%94-green)](https://profile.intra.42.fr/users/votre_nom_utilisateur)
+[![42 Grade](https://github.com/ayogun/42-project-badges/blob/main/badges/libftm.png)
 
-Ajoutez ici une description de la note que vous avez obtenue (si applicable) et d'autres informations pertinentes.
+
 
 ## Installation et Compilation
 
