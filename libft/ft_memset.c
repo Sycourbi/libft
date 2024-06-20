@@ -10,7 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
+/*
+** Remplit les `n` premiers octets de la zone mémoire pointée par `s` avec l'octet `c`.
+**
+** \param s Pointeur vers la zone mémoire à remplir.
+** \param c Octet à copier.
+** \param n Nombre d'octets à remplir.
+** \return Un pointeur vers `s`.
+*/
 void	*ft_memset(void *s, int c, size_t n)
 {
 	size_t	i;
