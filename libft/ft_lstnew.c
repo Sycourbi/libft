@@ -10,7 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-
+/*
+** Alloue et retourne un nouvel élément de liste.
+**
+** \param content Le contenu à insérer dans le nouvel élément.
+** \return Un pointeur vers le nouvel élément de liste, ou NULL en cas d'erreur.
+*/
 t_list	*ft_lstnew(void *content)
 {
 	t_list	*new;
