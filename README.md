@@ -8,7 +8,7 @@ que vous réutiliserez tout au long de votre cursus.
 ## Badge et Note Obtenu
 
 <div align="center">
-  <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/libftm.png?raw=true" alt="Badge du projet skill-icons">
+  <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/libftm.png?raw=true" alt="Badge du projet libft">
 </div>
 
 ## Installation et Compilation
