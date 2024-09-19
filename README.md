@@ -1,5 +1,8 @@
 # Libft
 
+![C Language](https://img.shields.io/badge/language-C-blue)
+
+
 ## Description
 
 Bienvenue sur le dépôt du projet Libft de l'École 42. Ce projet consiste à recoder plusieurs fonctions de la bibliothèque standard du langage C, ainsi que d'autres fonctions utilitaires 
